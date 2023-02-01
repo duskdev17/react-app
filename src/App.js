@@ -43,16 +43,49 @@ const App = () => {
 
 
 
-    //arrow function => es6
-    const x = (x, y) => x*y;
-    const y = (m, n) => { return m*n };
+    // //arrow function => es6
+    // const x = (x, y) => x*y;
+    // const y = (m, n) => { return m*n };
 
-    console.log(x(2, 5));
-    console.log(y(3, 4));
-
-
+    // console.log(x(2, 5));
+    // console.log(y(30, 4));
 
 
+    // //spread operator
+    // const num = [10, 20, 54, 12, 34]
+    // let maxValue = Math.max(...num)
+
+    // return(
+    //     <h1>Max Number: {maxValue}</h1>
+    // );
+
+
+    // const mechanical = ['Keychron', 'Razer', 'Corsair', 'Royal Kludge']
+    // let text = '';
+
+    // for (let x of mechanical){
+    //     text += x + '';
+    // }
+
+    // let language = "JavaScript";
+    // let text2 = "";
+    
+    // for (let x of language) {
+    //     text2 += x + " ";
+    // }
+    
+
+
+    // return(
+    //     <>Mechanical Keyboards: {text2}</>
+    // )
+
+
+
+    //Javascript Maps
+    
+
+    
 
 
 }
