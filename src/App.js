@@ -111,24 +111,27 @@ const App = () => {
 
 
 
-    //JavaScript Classes
-    class Car{
-        constructor(name, year){
-            this.name = name;
-            this.year = year;
-        }
-    }
+    // //JavaScript Classes
+    // class Car{
+    //     constructor(name, year){
+    //         this.name = name;
+    //         this.year = year;
+    //     }
+    // }
 
-    const myCar1 = new Car('BMW', 2015);
-    const myCar2 = new Car('Audi', 2016);
-
-
-    return(
-        <>My cars are {myCar1.name} and {myCar2.name}. 
-        I bought {myCar1.name} in {myCar1.year} and {myCar2.name} in {myCar2.year}.</>
-    )
+    // const myCar1 = new Car('BMW', 2015);
+    // const myCar2 = new Car('Audi', 2016);
 
 
+    // return(
+    //     <>My cars are {myCar1.name} and {myCar2.name}. 
+    //     I bought {myCar1.name} in {myCar1.year} and {myCar2.name} in {myCar2.year}.</>
+    // )
+
+
+
+    // Javascript Promises
+    
 
 }
 
