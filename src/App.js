@@ -243,15 +243,28 @@ const App = () => {
 
 
 
-    //Arrays
-    let x = Array.from("ABCDEFG") 
+    // //Arrays
+    // let x = Array.from("ABCDEFG") 
+
+    // return(
+    //         <h1>{x}</h1>
+    // )
+
+    
+
+    // Array keys
+    let text = "";
+
+    const keyboards = ['keychron', 'Royal Kludge', 'Corsair', 'Mumre'];
+    const keys = keyboards.keys();
+
+    for( let x in keys ){
+        text += x + "<br>";
+    }
 
     return(
-            <h1>{x}</h1>
-        )
-
-
-
+        <>{text}</>
+    )
 
 
 
