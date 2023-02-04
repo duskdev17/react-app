@@ -130,8 +130,130 @@ const App = () => {
 
 
 
-    // Javascript Promises
+    // // Javascript Promises
+    // // returns a promise
+    // let countValue = new Promise(function (resolve, reject) {
+    //     reject('Promise rejected'); 
+    // });
     
+    // // executes when promise is resolved successfully
+    // countValue.then(
+    //     function successValue(result) {
+    //         console.log(result); // Promise resolved
+    //     },
+    // )
+
+
+
+
+
+    // // JS Symbol()
+    // const person = {
+    //     firstName: "John",
+    //     lastName: "Doe",
+    //     age: 50,
+    //     eyeColor: "blue"
+    //   };
+      
+    //   let id = Symbol('id');
+    //   person[id] = 140353;
+    //   // Now person[id] = 140353
+    //   // but person.id is still undefined
+
+    //   return(
+    //     <>{person.id}</>
+    //   )
+
+
+
+
+    // //default parameters
+    // function myFunction(x = 10, y = 10){
+    //     return x + y;
+    // }
+
+    // let value = myFunction(2);
+
+    // return(
+    //     <>{value}</>
+    // )
+
+
+
+    // //rest parameter
+    // function sum(...args) {
+    //     let sum = 0;
+
+    //     for(let arg of args)
+    //         sum = sum + arg;
+    //     return sum;
+    // }
+
+    // let x = sum(3, 4, 4, 3, 1, 6, 7, 3, 2, 7);
+
+
+    // return(
+    //     <h1>Summation is: {x}</h1>
+    // )
+
+
+
+
+
+    // // JS String.includes()
+    // let msz = undefined;
+    // let text = "Hello World. I am Null."
+
+    // let result = text.includes("Hello");
+
+    // if (result == true){
+    //     msz = 'String found';
+    // }
+    // else{
+    //     msz = 'String not found';
+    // }
+
+
+    // return(
+    //     <h1>{msz}</h1>
+    // )
+
+
+    // // JS String.includes()
+    // let msz = undefined;
+    // let text = "Hello World. I am Null."
+
+    // //let result = text.startsWith("am");
+    // let result = text.endsWith(".");
+
+    // if (result == true){
+    //     msz = 'String found';
+    // }
+    // else{
+    //     msz = 'String not found';
+    // }
+
+
+    // return(
+    //     <h1>{msz}</h1>
+    // )
+
+
+
+
+
+
+    //Arrays
+    let x = Array.from("ABCDEFG") 
+
+    return(
+            <h1>{x}</h1>
+        )
+
+
+
+
+
 
 }
 
