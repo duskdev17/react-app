@@ -252,20 +252,74 @@ const App = () => {
 
     
 
-    // Array keys
-    let text = "";
+    // // Array keys
+    // let text = "";
 
-    const keyboards = ['keychron', 'Royal Kludge', 'Corsair', 'Mumre'];
-    const keys = keyboards.keys();
+    // const keyboards = ['keychron', 'Royal Kludge', 'Corsair', 'Mumre'];
+    // const keys = keyboards.keys();
 
-    for( let x in keys ){
-        text += x + "<br>";
-    }
+    // for( let x in keys ){
+    //     text += x + "<br>";
+    // }
 
-    return(
-        <>{text}</>
-    )
+    // return(
+    //     <>{text}</>
+    // )
 
+
+
+    // //Array Find
+    // function findFunction(value, index, array){
+    //     return value > 20;
+    // }
+
+    // const numbers = [10, 20, 19, 90, 32, 14, 40, 60];
+    // //let first = numbers.find(findFunction);
+    // let first = numbers.findIndex(findFunction);
+
+
+    // return(
+    //     <>{first}</>
+    // )
+
+
+
+    // //Math
+    // //let x = Math.sign(-4.5);
+    // //let x = Math.trunc(4.5);
+    // //let x = Math.cbrt(125);
+    // //let x = Math.log2(2);
+    // let x = Math.log10(10);
+
+    // return(
+    //     <>{x}</>
+    // )
+
+
+
+
+
+    // //Number 
+    // //let x = Number.MAX_SAFE_INTEGER;
+    // let x = Number.isInteger(10.1);
+
+    // return(
+    //     <>{x}</>
+    // )
+    
+
+
+
+
+
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    const f = fruits.entries();
+
+    for (let x of f) {
+        return(
+            <>{x}</>    
+        )
+      }
 
 
 }
