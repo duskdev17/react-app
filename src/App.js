@@ -330,14 +330,8 @@ const App = () => {
       
 
       function opposite(number) {
-        if(number>0){
-          number = -number;
-        }
-        else if(number<0){
-          number = -(number);
-        }
         
-        console.log(number);
+        console.log(-number);
       }
       
       var number = -5;
