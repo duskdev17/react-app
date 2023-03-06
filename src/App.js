@@ -309,17 +309,42 @@ const App = () => {
     
 
 
+    // //Square(n) Sum
 
+    // function squareSum(numbers){
+    //     var temp=0;
+        
+    //     for(let i=0; i<numbers.length; i++){
+    //       temp = temp + numbers[i]*numbers[i];
+    //     } 
 
+    //     document.write(temp);
+    //   }
+      
+    //   var numbers = new Array(1, 2, 2);
+      
+      
+    //   return(
+    //     squareSum(numbers)
+    //   )
+      
 
-    const fruits = ["Banana", "Orange", "Apple", "Mango"];
-    const f = fruits.entries();
-
-    for (let x of f) {
-        return(
-            <>{x}</>    
-        )
+      function opposite(number) {
+        if(number>0){
+          number = -number;
+        }
+        else if(number<0){
+          number = -(number);
+        }
+        
+        console.log(number);
       }
+      
+      var number = -5;
+      
+      return(
+        opposite(number)
+      )
 
 
 }
